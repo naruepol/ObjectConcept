@@ -11,8 +11,12 @@ public class Rectangle extends Shape {
 
 	@Override
 	public double getArea() {
-		area = length * width;
+		calculateArea();
 		return area;
+	}
+
+	private void calculateArea() {
+		area = length * width;
 	}
 
 }
