@@ -1,8 +1,8 @@
 package th.ac.npru.swe.naruapon.oop;
 
 public abstract class Shape {
-	String color;
-	double area;
+	protected String color;
+	protected double area;
 
 	abstract double getArea();
 
@@ -10,7 +10,7 @@ public abstract class Shape {
 		return "Color : " + color + "\nArea : " + area;
 	}
 
-	void setColor(String colorValue) {
+	public void setColor(String colorValue) {
 		color = colorValue;
 	}
 }
