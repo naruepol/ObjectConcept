@@ -7,7 +7,7 @@ public abstract class Shape {
 	abstract double getArea();
 
 	public String toString() {
-		return "Color : " + color + "\nArea : " + area;
+		return "\nColor : " + color + "\nArea : " + area;
 	}
 
 	public void setColor(String colorValue) {
